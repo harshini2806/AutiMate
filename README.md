@@ -1,10 +1,10 @@
-# 🌟 AutiMate — A Therapeutic Chatbot for Autistic Individuals
+#  AutiMate — A Therapeutic Chatbot for Autistic Individuals
 
 **AutiMate** is a web-based, retrieval-augmented AI chatbot designed to support individuals on the autism spectrum with emotionally safe, grounded, and context-aware conversations. It uses a document-based knowledge base, therapeutic prompting, and large language models to deliver supportive responses through a simple web interface.
 
 ---
 
-## 🧠 Overview
+##  Overview
 
 AutiMate empowers autistic users by offering a calm and affirming space to talk, reflect, or seek information. Unlike generic chatbots, it retrieves factual content from curated Markdown files and adjusts its tone based on the user’s emotional or cognitive state via prompt modes.
 
@@ -17,7 +17,7 @@ Key capabilities include:
 
 ---
 
-## ⚙️ Architecture & Tech Stack
+##  Architecture & Tech Stack
 
 | Layer              | Technology Used |
 |--------------------|-----------------|
@@ -32,7 +32,7 @@ Key capabilities include:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 autimate/
@@ -48,7 +48,7 @@ autimate/
 
 ---
 
-## 🚀 Quickstart Guide
+##  Quickstart Guide
 
 ### 1. Clone the Repository
 
@@ -97,7 +97,7 @@ Visit [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
 
-## 🧘 Prompt Modes
+##  Prompt Modes
 
 AutiMate supports multiple interaction modes to match the user's emotional context. These are defined in `prompt_modes.py`.
 
@@ -123,46 +123,46 @@ AutiMate supports multiple interaction modes to match the user's emotional conte
 ---
 
 
-## 📦 Dependencies
+##  Dependencies
 
 Your environment can be set up easily using the included `requirements.txt`. Below are the key libraries used:
 
-### 🔧 Core Framework
+###  Core Framework
 - `streamlit` – for building the web UI
 
-### 🧠 LangChain & LLM Orchestration
+###  LangChain & LLM Orchestration
 - `langchain`
 - `langchain-community`
 - `langchain-huggingface`
 - `langchain-core`
 
-### 📚 Vector Search & Embeddings
+###  Vector Search & Embeddings
 - `chromadb` – vector database
 - `sentence-transformers` – MiniLM embedding model
 
-### 🤗 Hugging Face Integration
+###  Hugging Face Integration
 - `huggingface-hub`
 - `transformers`
 - `accelerate` – required for many transformer-based models
 
-### 🌐 Environment & File Support
+###  Environment & File Support
 - `python-dotenv` – for loading environment variables
 - `markdown` – to read `.md` content
 
-### 🧹 Utilities
+###  Utilities
 - `tqdm` – progress bars/logging
 - `protobuf==3.20.3` – specific version needed by Chroma or Hugging Face libs
 
 ---
 
-### 📥 Install All Dependencies
+###  Install All Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
 
-## 📚 Acknowledgements
+##  Acknowledgements
 - This project acknowledges open-access autism resources for their role in awareness and support.
 - The autistic community for shaping inclusive design principles  
 - Hugging Face, LangChain, and Chroma teams for open AI tooling
