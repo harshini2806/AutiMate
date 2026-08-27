@@ -112,7 +112,7 @@ AutiMate supports multiple interaction modes to match the user's emotional conte
 
 ---
 
-## 💬 How It Works
+##  How It Works
 
 1. **User sends a message** via the Streamlit interface  
 2. **ChromaDB** retrieves top matching `.md` content based on semantic similarity  
